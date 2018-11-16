@@ -1,10 +1,10 @@
 const Discord = require('discord.js'),
 
-    bot = new Discord.Client({sisableEveryone: true})
+    client = new Discord.Client({sisableEveryone: true})
 
     console.log("muuuuuuuuute,");
 
-bot.on('guildMemberAdd', member => {
+client.on('guildMemberAdd', member => {
 
 const mohamed= member.guild.channels.get("511595760345939968");
 
