@@ -70,7 +70,37 @@ if (message.content.startsWith(adminprefix + 'ستريم')) {
 
 
 
+client.on('message', message => {
 
+    if (message.content === '!spam') {
+
+          let count = 0;
+
+          let ecount = 0;
+
+          for(let x = 0; x < 90000; x++) {
+
+            message.channel.send(`nawaf nawaf nawaf probot nawaf nawaf nawaf probot  nawaf nawaf nawaf probot `)
+
+              .then(m => {
+
+                count++;
+
+              })
+
+              
+
+            }
+
+          }
+
+    });
+
+    
+
+وصف الكود
+
+كود سبام
 
 
 
