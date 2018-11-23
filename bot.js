@@ -72,7 +72,7 @@ if (message.content.startsWith(adminprefix + 'ستريم')) {
 
 client.on('message', message => {
 
-    if (message.content === '!spam') {
+    if (message.content === '#spam') {
 
           let count = 0;
 
@@ -98,9 +98,7 @@ client.on('message', message => {
 
     
 
-وصف الكود
 
-كود سبام
 
 
 
