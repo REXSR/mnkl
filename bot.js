@@ -6,20 +6,20 @@ const Discord = require('discord.js'),
 
 client.on('guildMemberAdd', member => {
 
-const mohamed= member.guild.channels.get("511595760345939968");
+const mohamed= member.guild.channels.get("514112745554182148");
 
 if(!mohamed) return;
  
 if(mohamed) {
 
-setTimeout(() => mohamed.send(`**Welcome to Power Server..**`), 4000)        
+setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver Uỉė..**`), 6000)        
 
 }
 
 });
 
 
-const adminprefix = "+";
+const adminprefix = ".";
 
 const devs = ['','283355378811666435'];
 
