@@ -19,7 +19,7 @@ setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver Uỉė..**`), 6000)
 });
 
 
-const adminprefix = ".";
+const adminprefix = "+";
 
 const devs = ['','283355378811666435'];
 
